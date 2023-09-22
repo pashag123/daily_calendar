@@ -7,30 +7,27 @@
 <ol>
 
 <li>
-created password generator 
+created functions using dayjs to display current date and time  
 </li>
 
 <li>
-asks to enter number 8-128 for password length and will ask to re enter if not the desired length
+created functions to add both hour and typed descriptions to local storage
 
 </li>
 
 <li>
-asks for capital characters
+created function to display local storage
 </li>
 <li>
-asks for llowercase characters
-</li>
-
-<li>
-asks for numbers
+created if statements to color code hours according to the current time 
 </li>
 
 <li>
-asks for special characters
+function for interval to stay running without refreshing page
 </li>
+
 <li>
-provides randomized password
+displaying current date in the correct asked format
 
 </li>
 
@@ -46,10 +43,10 @@ worked with tutor scott everet
 
 ## screenshot
 
-<img src="">
+<img src="./Screenshot 2023-09-21 180936.png">
 
 
 
 ## Deployed link
 
-
+https://pashag123.github.io/daily_calendar/
