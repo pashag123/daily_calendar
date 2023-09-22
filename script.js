@@ -58,45 +58,21 @@ $(document).ready(function () {
 
 
 
+for (i = 9; i < 18;i++) {
+
+    $(`#hour-${i}` + ' .description').val(localStorage.getItem('hour-' + i))
+
+}
 
 
 
 
 
 
-
-
-
-
-
-    $(function saveTextDisplay () {
-       
-    });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    $('#currentDay').text(dayjs().format('dddd, MMMM D'))
+ $('#currentDay').text(dayjs().format('dddd, MMMM D'))
 
     hourCheck();
+
+    setInterval(hourCheck, 15000);
 })
 
